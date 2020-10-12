@@ -1,0 +1,200 @@
+
+html {background-color: #FFF;}
+
+
+
+body{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:75%;
+	backgorund-color:#FFF;}
+
+.body-box{background-color:white;
+	padding:10px;}
+
+header{ border-bottom: 3px solid #848387;
+	padding:15px;
+	padding-left:30px;
+	padding-bottom:none;
+	text-shadow:2px 1px 1px #a1a1a1;
+	word-spacing:2px;
+}
+
+
+
+
+
+header h1 {margin:0;
+	font-weight:bold;
+	font-size:185%;}
+
+header h2 {margin:0;}
+
+header p1 {margin:0;
+	font-size:140%;}
+
+
+/*site navigation*/
+
+
+	.site-nav{
+		padding:15px;
+		padding-top:9px;}	
+
+	.site-nav li{
+		list-style:none;
+		float:left;
+		margin-right:5px;}
+
+	.site-nav ul{
+		margin:0;
+		padding:0px;}
+
+
+	.site-nav a{
+		display:inline;
+		margin-top:0px;
+		color:#848387;
+		text-decoration:none;
+		padding:10px 20px;
+		padding-top:none;
+		border:3px solid;
+		border-top:none; }
+
+
+
+	.site-nav a:hover {
+		background-color:#dbd9ff;}
+
+
+/*End site navigation*/
+
+.text-area{
+	background-color:White;
+	width:95%;
+	float:left;
+	margin-left: 15px;
+	margin-right:15px;
+	margin-top:15px;
+	margin-bottom:15px;
+	weight: normal;
+	font-size:100%;
+	line-height:1.5;
+	}
+
+
+
+.container {
+	color: black;
+	/* background-color:#dbd9ff; */
+	 	background-image: linear-gradient(#dbd9ff, #fafaff);
+	margin-top:20px;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:15px;
+	padding-top:10px;
+	padding-left: 10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	float:left;
+	box-sizing: border-box;}
+
+
+.image-box{
+margin-top: 20px;
+marign-left:0px;
+margin-right: 0px;
+}
+
+/*banner overlay*/
+
+	.image-banner img{display:block;}
+
+	.image-banner{position:relative;
+		left:25px;
+		top:5px;}
+
+	.banner-description{
+		position:absolute;
+		bottom:1px;
+		left:1px;
+		color:White;
+		background-color:0,0,0,1;
+		z-index:10;}
+		/*The transparent overlay didn't reall work. come revisti this*/
+
+
+
+
+/*End banner overlay*/
+.about-header {
+	padding:15px;
+	padding-left:30px;
+	padding-bottom:none;
+	word-spacing:2px;}
+
+
+/* Portfolio image grid */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 24.25%;
+  max-width: 24.25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+/* Portfolio image grid end */
+
+
+
+
+
+
+
+.form-container{
+padding:30px;
+margin-left:68px;
+
+vertical-align:middle;
+}
+
+
+
+
+
+
+footer{
+		padding:15px;
+		font-weight:75%;
+		color:#848387;
+		display:inline-blocks;	
+		text-align:center;
+		text-decoration:none;
+		padding:10px 20px;
+		padding-top:none;
+	
+	 }
+	
+dl{	font-weight:bold;}
+
+
+
